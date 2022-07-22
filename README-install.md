@@ -20,8 +20,10 @@ para conectar a extensão mongodb do vscode ao mongodb: mongodb://127.0.0.1:2701
 => mongo => use aulas => db.usuarios.insertOne({email: "roger@franco.com.br", senha: "123456"})
 => show dbs
 
+yarn add uuid => ids para o mongodb
+
 npm start
 
-https://www.youtube.com/watch?v=skUP3QcOkdQ&list=PLiAtrBwy0tAMsFf7fKDmr94vBe5_fJivy&index=6
+https://www.youtube.com/watch?v=blez3SU02rI&list=PLiAtrBwy0tAMsFf7fKDmr94vBe5_fJivy&index=7
 
-03:34
+
