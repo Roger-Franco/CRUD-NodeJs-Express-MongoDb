@@ -8,8 +8,8 @@ const getAll = async (req, res) => {
 const createUser = async (req, res) => {
   // const user = await criar(req.body); // ou no formato abaixo
   const { email, senha } = req.body;
-  const user = await criar({ email, senha });
-  return res.status(200).json(user);
+  const { email: mail, _id } = await criar({ email, senha });
+  return res.status(200).json({ mail, _id });
 };
 
 const login = async () => null;
