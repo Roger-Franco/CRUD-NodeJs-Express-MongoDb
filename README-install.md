@@ -24,5 +24,5 @@ yarn add uuid => ids para o mongodb
 
 npm start
 
-https://www.youtube.com/watch?v=yiHlZt1j76E&list=PLiAtrBwy0tAMsFf7fKDmr94vBe5_fJivy&index=8&ab_channel=ProgramadorNomade
+https://www.youtube.com/watch?v=ZCXu0yb9iH0&list=PLiAtrBwy0tAMsFf7fKDmr94vBe5_fJivy&index=9&ab_channel=ProgramadorNomade
 
