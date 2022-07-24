@@ -1,5 +1,5 @@
 import {
-  getAll, newUser, userExists, deleta,
+  getAll, newUser, userExists, deleta, updateUser,
 } from '../models/usuario.model';
 
 const todos = async () => {
@@ -23,8 +23,15 @@ const deletar = async ({ id }) => {
   return user;
 };
 
+const atualizar = async ({ id, email, senha }) => {
+  const usuario = await userExists({ id });
+  if (!usuario) return { message: 'Usuário não encontrado' };
+  const user = await updateUser({ id, email, senha });
+  return user;
+};
+
 const login = async () => null;
 
 export {
-  todos, login, criar, deletar,
+  todos, login, criar, deletar, atualizar,
 };
