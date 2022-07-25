@@ -22,9 +22,10 @@ para conectar a extensão mongodb do vscode ao mongodb: mongodb://127.0.0.1:2701
 
 yarn add uuid => ids para o mongodb
 
+yarn add jsonwebtoken => chave de segurança de validação de login
+
 npm start
 
-https://www.youtube.com/watch?v=ZCXu0yb9iH0&list=PLiAtrBwy0tAMsFf7fKDmr94vBe5_fJivy&index=9&ab_channel=ProgramadorNomade
+https://www.youtube.com/watch?v=gNYWGVkkcRM&list=PLiAtrBwy0tAMsFf7fKDmr94vBe5_fJivy&index=10&ab_channel=ProgramadorNomade
 
-27:00
-
+32:00
